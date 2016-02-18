@@ -1,0 +1,2 @@
+Connect-SPOnline -Url https://deloitte820.sharepoint.com -Credentials (Get-Credential)
+New-SPOTenantSite -Title JLLScripted -Url https://deloitte820.sharepoint.com/sites/JLLScripted -Owner peelliott@deloitte820.onmicrosoft.com -Timezone 2
